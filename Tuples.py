@@ -3,7 +3,7 @@
 #They are written with round brackets.
 #They can contain any data type and can also contain duplicate values.
 
-
+'''
 tp = (2,4,6,8,10)
 print(type(tp))
 print(len(tp))
@@ -47,7 +47,22 @@ z = ("Orange",)
 old_tuple += z
 
 print(old_tuple)
-
+'''
 
 #tuples are immutable but we can perform all functions on it by converting it into a list and once we done adding, removing, elementys from and to it we convert that list back in tuple.
 
+#Loop tuples
+A_tuple = ("Apple", "Banana", "cherry")
+for x in A_tuple:
+    print(x)
+
+#We can loop through indexes
+for i in range(len(A_tuple)):
+    print(A_tuple[i])
+
+#Using While Loop
+W_tuple = (1,2,3,4,5)
+i = 0
+while i < len(W_tuple):
+    print(W_tuple[i])
+    i = i + 1
