@@ -1,6 +1,6 @@
 #Truth Tables for "and", "or", and "not" operators
 
-#And: Both miust be true for the result to be true
+#And: Both must be true for the result to be true
 print(True and True) #True
 print(True and False) #False
 print(False and True) #False
