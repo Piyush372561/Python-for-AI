@@ -10,11 +10,13 @@ yourDict = {
     "Paper" : "p",
     "Scissor" : "sc"
 }
+
 reverseDict = {
     "s" : "Stone",
     "p" : "Paper",
     "sc" : "Scissor"
 }
+
 you = yourDict[youstr]
 print("You chose: ", reverseDict[you])
 print("opponent choose: ",reverseDict[opponent])
