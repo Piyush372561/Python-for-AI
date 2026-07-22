@@ -3,7 +3,9 @@ Stone = "s"
 Paper = "p"
 Scissor = "sc"
 '''
-opponent = "sc"
+import random
+
+opponent = random.choice(["s","p","sc"])
 youstr = input("Enter your choice: ")
 yourDict = {
     "Stone" : "s",
